@@ -2,24 +2,24 @@
 
 Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks e serviços para engenharia de software, UI/UX, segurança, infraestrutura e performance.
 
-
+<a id="sumario"></a>
 ## Sumário
 
-1. [UI, Frontend e Componentes](#ui-frontend-e-componentes)
-2. [OSINT, Investigação e Pesquisa](#osint-investigacao-e-pesquisa)
-3. [Roadmaps, Listas e Diretórios](#roadmaps-listas-e-diretorios)
-4. [APIs, Dados e Mocking](#apis-dados-e-mocking)
-5. [Documentação e Ferramentas para Desenvolvedores](#documentacao-e-ferramentas-para-desenvolvedores)
-6. [Ícones, SVG e Identidade Visual](#icones-svg-e-identidade-visual)
-7. [3D, WebGL e Experiências Visuais](#3d-webgl-e-experiencias-visuais)
-8. [Tipografia e Paletas de Cores](#tipografia-e-paletas-de-cores)
-9. [Acessibilidade (A11Y) e Usabilidade](#acessibilidade-a11y-e-usabilidade)
-10. [Placeholders, Mockups e Imagens](#placeholders-mockups-e-imagens)
-11. [HTML, SEO e Validadores Web](#html-seo-e-validadores-web)
-12. [Segurança e Headers HTTP](#seguranca-e-headers-http)
-13. [Otimização de Mídias e Assets](#otimizacao-de-midias-e-assets)
-14. [Performance e Monitoramento](#performance-e-monitoramento)
-15. [Email e Entregabilidade](#email-e-entregabilidade)
+1. [UI, Frontend e Componentes](#sec-1)
+2. [OSINT, Investigação e Pesquisa](#sec-2)
+3. [Roadmaps, Listas e Diretórios](#sec-3)
+4. [APIs, Dados e Mocking](#sec-4)
+5. [Documentação e Ferramentas para Desenvolvedores](#sec-5)
+6. [Ícones, SVG e Identidade Visual](#sec-6)
+7. [3D, WebGL e Experiências Visuais](#sec-7)
+8. [Tipografia e Paletas de Cores](#sec-8)
+9. [Acessibilidade (A11Y) e Usabilidade](#sec-9)
+10. [Placeholders, Mockups e Imagens](#sec-10)
+11. [HTML, SEO e Validadores Web](#sec-11)
+12. [Segurança e Headers HTTP](#sec-12)
+13. [Otimização de Mídias e Assets](#sec-13)
+14. [Performance e Monitoramento](#sec-14)
+15. [Email e Entregabilidade](#sec-15)
 
 ---
 
@@ -38,11 +38,14 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 
 ## Recursos por Categoria
 
+<a id="sec-1"></a>
+
 ### UI, Frontend e Componentes
 
 | Recurso | Descrição & Tags | Licença / Modelo | Caso de Uso | Observações |
 | :--- | :--- | :--- | :--- | :--- |
 | [21st.dev](https://21st.dev/) | Marketplace de blocos React/Tailwind inspirados no shadcn/ui. <br>`#react` `#tailwind` `#shadcn` `#componentes` | `Freemium` | Prototipagem e expansão rápida de UI | Licença varia por autor do componente |
+| [Aceternity UI](https://ui.aceternity.com/) | Componentes com alto impacto visual e animações cinematográficas. <br>`#react` `#framer-motion` `#tailwind` | `Freemium` | Destaques visuais em landing pages tech | Núcleo livre; versão Pro disponível |
 | [Ark UI](https://ark-ui.com/) | Primitivos headless e acessíveis para React, Vue e Solid. <br>`#react` `#vue` `#solid` `#headless` `#a11y` | `Open Source (MIT)` | Fundações de Design Systems acessíveis | Mantido pela equipe do Chakra UI |
 | [bgjar](https://bgjar.com/) | Gerador de padrões e gradientes de fundo em formato SVG. <br>`#svg` `#backgrounds` `#gerador` | `Gratuito` | Criação ágil de fundos vetoriais | Exportação direta em SVG/CSS |
 | [BootstrapMade](https://bootstrapmade.com/) | Templates HTML/Bootstrap responsivos para páginas corporativas. <br>`#bootstrap` `#templates` `#html` | `Freemium` | Landing pages estáticas estruturadas | Versões gratuitas requerem atribuição |
@@ -61,19 +64,20 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 | [OriginKit](https://originkit.dev/) | Coleção de blocos React/Tailwind baseados no paradigma shadcn. <br>`#react` `#tailwind` `#componentes` | `Gratuito` | Construção de layouts corporativos | Verificar termos no site oficial |
 | [Preline UI](https://preline.co/) | Framework de componentes e templates baseados em Tailwind CSS. <br>`#tailwind` `#componentes` `#figma` | `Freemium` | Solução completa com plugins JS integrados | Núcleo gratuito sob licença MIT |
 | [React Aria](https://react-aria.adobe.com/) | Conjunto de hooks da Adobe para interfaces acessíveis e consistentes. <br>`#react` `#a11y` `#headless` `#adobe` | `Open Source (Apache-2.0)` | Aplicações corporativas com foco total em acessibilidade | Padrão robusto do ecossistema Adobe |
+| [Refero Styles](https://styles.refero.design/) | Diretório de referências visuais de UI/UX e páginas reais de SaaS. <br>`#inspiracao` `#design-system` `#ui-ux` | `Gratuito` | Benchmarking visual e pesquisa de interfaces | Apenas catálogo de referência |
 | [shadcn/ui](https://ui.shadcn.com/) | Coleção de componentes reutilizáveis copiados direto para a base do código. <br>`#react` `#radix` `#tailwind` `#design-system` | `Open Source (MIT)` | Base personalizável para produtos modernos | Você é dono do código incorporado |
 | [Skiper UI](https://skiper-ui.com/components?source=free) | Componentes animados e microinterações modernas em React. <br>`#react` `#tailwind` `#animacao` | `Freemium` | Interações dinâmicas de interface | Separar itens livres dos itens Pro |
 | [Start Bootstrap](https://startbootstrap.com/) | Temas e templates para Bootstrap (dashboards, landing pages). <br>`#bootstrap` `#templates` `#dashboard` | `Freemium` | Protótipos corporativos e painéis administrativos | Modelos gratuitos sob MIT |
-| [Refero Styles](https://styles.refero.design/) | Diretório de referências visuais de UI/UX e páginas reais de SaaS. <br>`#inspiracao` `#design-system` `#ui-ux` | `Gratuito` | Benchmarking visual e pesquisa de interfaces | Apenas catálogo de referência |
 | [Tailblocks](https://tailblocks.cc/) | Blocos prontos de landing pages em Tailwind para uso imediato. <br>`#tailwind` `#html` `#landing-page` | `Open Source (MIT)` | Estruturação instantânea de páginas | Exportação direta do HTML |
 | [Tailwind CSS Showcase](https://tailwindcss.com/showcase) | Vitrine oficial de projetos de alto nível desenvolvidos com Tailwind. <br>`#tailwind` `#inspiracao` `#showcase` | `Gratuito` | Validação de padrões visuais em produção | Não fornece código diretamente |
 | [TailwindFlex](https://tailwindflex.com/) | Repositório colaborativo de componentes gerados pela comunidade. <br>`#tailwind` `#comunidade` `#snippets` | `Gratuito` | Resolução rápida de layouts pontuais | Licenciamento sob critério do autor |
-| [Aceternity UI](https://ui.aceternity.com/) | Componentes com alto impacto visual e animações cinematográficas. <br>`#react` `#framer-motion` `#tailwind` | `Freemium` | Destaques visuais em landing pages tech | Núcleo livre; versão Pro disponível |
 | [Uiverse](https://uiverse.io/) | Elementos de UI em CSS puro e Tailwind desenvolvidos pela comunidade. <br>`#css` `#tailwind` `#botoes` `#loaders` | `Open Source (MIT)` | Botões, loaders e inputs estilizados | Submissões de usuários |
 
 [Voltar ao Sumário](#sumario)
 
 ---
+
+<a id="sec-2"></a>
 
 ### OSINT, Investigação e Pesquisa
 
@@ -86,6 +90,8 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 [Voltar ao Sumário](#sumario)
 
 ---
+
+<a id="sec-3"></a>
 
 ### Roadmaps, Listas e Diretórios
 
@@ -100,21 +106,25 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 
 ---
 
+<a id="sec-4"></a>
+
 ### APIs, Dados e Mocking
 
 | Recurso | Descrição & Tags | Licença / Modelo | Caso de Uso | Observações |
 | :--- | :--- | :--- | :--- | :--- |
+| [APILayer Marketplace](https://marketplace.apilayer.com/) | Marketplace unificado de microserviços e APIs de dados comerciais. <br>`#api` `#marketplace` `#dados` | `Freemium` | Serviços de validação, IP e taxas de câmbio | Limites de cota na camada gratuita |
 | [APIs.guru](https://apis.guru/) | Diretório global de especificações de APIs abertas em OpenAPI/Swagger. <br>`#api` `#openapi` `#swagger` | `Open Source` | Análise de arquitetura e schemas de APIs reais | Excelente para geração de clientes SDK |
 | [Free Public APIs](https://www.freepublicapis.com/) | Catálogo de APIs públicas categorizadas para testes e prototipagem. <br>`#api` `#gratuito` `#testes` | `Gratuito` | Integração rápida em provas de conceito | Conferir rate limits individuais |
-| [APILayer Marketplace](https://marketplace.apilayer.com/) | Marketplace unificado de microserviços e APIs de dados comerciais. <br>`#api` `#marketplace` `#dados` | `Freemium` | Serviços de validação, IP e taxas de câmbio | Limites de cota na camada gratuita |
+| [Mockaroo](https://mockaroo.com/) | Gerador de dados falsos estruturados em JSON, CSV, SQL e Excel. <br>`#mock` `#dados` `#testes` `#sql` | `Freemium` | Geração de massas de testes realistas | Camada grátis limita número de linhas |
 | [public-apis (GitHub)](https://github.com/public-apis/public-apis) | Uma das maiores listas mantidas pela comunidade de APIs livres no GitHub. <br>`#api` `#github` `#diretorio` | `Open Source (MIT)` | Fonte primária para testes e projetos de estudo | Checar parâmetros de CORS e autenticação |
 | [Public APIs](https://publicapis.dev/) | Mecanismo de busca e catálogo com filtros para CORS, Auth e HTTPS. <br>`#api` `#busca` `#cors` | `Gratuito` | Filtragem precisa de APIs por viabilidade técnica | Metadados atualizados com frequência |
-| [Mockaroo](https://mockaroo.com/) | Gerador de dados falsos estruturados em JSON, CSV, SQL e Excel. <br>`#mock` `#dados` `#testes` `#sql` | `Freemium` | Geração de massas de testes realistas | Camada grátis limita número de linhas |
 | [Postman Network](https://postman.com/explore) | Diretório de coleções e workspaces oficiais das principais APIs do mercado. <br>`#postman` `#testes-api` `#colecoes` | `Freemium` | Testes manuais e documentação viva de endpoints | Requer conta ou uso do Postman |
 
 [Voltar ao Sumário](#sumario)
 
 ---
+
+<a id="sec-5"></a>
 
 ### Documentação e Ferramentas para Desenvolvedores
 
@@ -125,22 +135,26 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 | [CodeShack](https://codeshack.io/) | Tutoriais orientados a código e templates funcionais de backend/fullstack. <br>`#scripts` `#tutoriais` `#web` | `Gratuito` | Implementação de fluxos básicos (autenticação, CRUD) | Verificar termos de cada repositório |
 | [CSS-Tricks](https://css-tricks.com/) | Publicação de referência em arquitetura e soluções para CSS e navegadores. <br>`#css` `#frontend` `#tutoriais` | `Gratuito` | Guias aprofundados sobre Flexbox, Grid e layout | Propriedade da DigitalOcean |
 | [DevDocs](https://devdocs.io/) | Interface unificada, rápida e offline de documentações de tecnologia. <br>`#documentacao` `#offline` `#produtividade` | `Open Source (MIT)` | Consulta centralizada sem distrações | Suporta PWA para operação local |
-| [MDN Web Docs](https://developer.mozilla.org/) | Documentação canônica dos padrões da plataforma Web aberta. <br>`#documentacao` `#web` `#javascript` | `Gratuito (CC BY-SA)` | Referência normativa de APIs de browser, HTML e CSS | Mantido pela Mozilla e comunidade |
 | [devhints](https://devhints.io/) | Folhas de referência rápidas e focadas em sintaxe de ferramentas e linguagens. <br>`#cheatsheet` `#sintaxe` `#git` | `Open Source` | Consulta rápida via terminal/browser | Mantido no GitHub |
 | [explainshell](https://explainshell.com/) | Parser visual que explica o significado de comandos shell complexos. <br>`#shell` `#linux` `#cli` | `Open Source` | Compreensão de scripts bash e flags obscuras | Baseado nas man pages oficiais |
+| [Frappe](https://frappe.io/framework) | O Frappe Framework é um framework web full-stack, open-source e de baixo código (low-code) escrito em Python e JavaScript, com MariaDB como banco de dados | `Open Source (MIT)` | O Frappe Framework é ideal para o desenvolvimento rápido de aplicações de negócios complexas, focadas em dados e processos administrativos. | Mantido por [ERPNext](https://frappe.io/erpnext) e [Comunidade](https://github.com/frappe/frappe/graphs/contributors?from=6%2F20%2F2026) 
 | [Learn X in Y Minutes](https://learnxinyminutes.com/) | Introduções orientadas a código para aprendizado expresso de linguagens. <br>`#tutoriais` `#sintaxe` `#aprendizado` | `Open Source` | Aquecimento em sintaxe para novas tecnologias | Código totalmente comentado |
+| [MDN Web Docs](https://developer.mozilla.org/) | Documentação canônica dos padrões da plataforma Web aberta. <br>`#documentacao` `#web` `#javascript` | `Gratuito (CC BY-SA)` | Referência normativa de APIs de browser, HTML e CSS | Mantido pela Mozilla e comunidade |
 | [QuickRef.ME](https://quickref.me/) | Cheatsheets modernos organizados em cartões com atalhos de sintaxe. <br>`#cheatsheet` `#design` `#referencia` | `Open Source` | Revisão ágil de comandos e regras | Interface visual limpa |
 | [Regex101](https://regex101.com/) | Depurador interativo e explicativo de expressões regulares em tempo real. <br>`#regex` `#depuracao` `#testes` | `Gratuito` | Criação e depuração de Regex (PCRE, JS, Python) | Inclui gerador de testes unitários |
 | [Zeal Docs](https://zealdocs.org/) | Cliente leitor de documentação offline para Linux e Windows. <br>`#documentacao` `#desktop` `#offline` | `Open Source (GPLv3)` | Programação sem conexão com a internet | Compatível com docsets do Dash |
-| [Frappe](https://frappe.io/framework) | O Frappe Framework é um framework web full-stack, open-source e de baixo código (low-code) escrito em Python e JavaScript, com MariaDB como banco de dados | `Open Source (MIT)` | O Frappe Framework é ideal para o desenvolvimento rápido de aplicações de negócios complexas, focadas em dados e processos administrativos. | Mantido por [ERPNext](https://frappe.io/erpnext) e [Comunidade](https://github.com/frappe/frappe/graphs/contributors?from=6%2F20%2F2026) 
+
 [Voltar ao Sumário](#sumario)
 
 ---
+
+<a id="sec-6"></a>
 
 ### Ícones, SVG e Identidade Visual
 
 | Recurso | Descrição & Tags | Licença / Modelo | Caso de Uso | Observações |
 | :--- | :--- | :--- | :--- | :--- |
+| [Devicon](https://devicon.dev/) | Ícones especializados cobrindo linguagens, ferramentas e softwares. <br>`#dev` `#logos` `#icones` | `Open Source (MIT)` | Portfólios, currículos e páginas técnicas | Logos comerciais são marcas registradas |
 | [Font Awesome](https://fontawesome.com/) | Conjunto canônico de ícones vetoriais com ampla adoção em frameworks. <br>`#icones` `#svg` `#font-icons` | `Freemium` | Aplicações corporativas consolidadas | Ícones gratuitos sob licença CC BY 4.0 |
 | [Heroicons](https://heroicons.com/) | Ícones artesanais otimizados para encaixe visual em projetos Tailwind. <br>`#icones` `#svg` `#tailwind` | `Open Source (MIT)` | Interfaces modernas e enxutas | Criado pela equipe oficial do Tailwind |
 | [Iconify](https://iconify.design/) | API e framework agnóstico agregando mais de 100 conjuntos de ícones abertos. <br>`#icones` `#api` `#agregador` | `Open Source (MIT)` | Aplicações que usam múltiplos packs de ícones | Resolve dependências unificando bundles |
@@ -151,11 +165,12 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 | [SVGL](https://svgl.app/) | Diretório atualizado de logotipos SVG de ferramentas do ecossistema tech. <br>`#logos` `#tech` `#svg` | `Gratuito` | Apresentações e seções de "Built with" | Suporte para variantes claro e escuro |
 | [Tabler Icons](https://tabler.io/) | Mais de 5.000 ícones vetoriais com foco em clareza geométrica. <br>`#icones` `#svg` `#dashboard` | `Open Source (MIT)` | Painéis administrativos e painéis de dados | Ajuste paramétrico de espessura de borda |
 | [Yesicon](https://yesicon.app/) | Mecanismo de busca e indexador universal de pacotes de ícones open source. <br>`#icones` `#busca` `#agregador` | `Gratuito` | Comparação de ícones de diferentes bibliotecas | Exibe a licença de cada pack original |
-| [Devicon](https://devicon.dev/) | Ícones especializados cobrindo linguagens, ferramentas e softwares. <br>`#dev` `#logos` `#icones` | `Open Source (MIT)` | Portfólios, currículos e páginas técnicas | Logos comerciais são marcas registradas |
 
 [Voltar ao Sumário](#sumario)
 
 ---
+
+<a id="sec-7"></a>
 
 ### 3D, WebGL e Experiências Visuais
 
@@ -173,6 +188,8 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 
 ---
 
+<a id="sec-8"></a>
+
 ### Tipografia e Paletas de Cores
 
 | Recurso | Descrição & Tags | Licença / Modelo | Caso de Uso | Observações |
@@ -188,6 +205,8 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 
 ---
 
+<a id="sec-9"></a>
+
 ### Acessibilidade (A11Y) e Usabilidade
 
 | Recurso | Descrição & Tags | Licença / Modelo | Caso de Uso | Observações |
@@ -200,6 +219,8 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 
 ---
 
+<a id="sec-10"></a>
+
 ### Placeholders, Mockups e Imagens
 
 | Recurso | Descrição & Tags | Licença / Modelo | Caso de Uso | Observações |
@@ -211,6 +232,8 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 [Voltar ao Sumário](#sumario)
 
 ---
+
+<a id="sec-11"></a>
 
 ### HTML, SEO e Validadores Web
 
@@ -225,6 +248,8 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 
 ---
 
+<a id="sec-12"></a>
+
 ### Segurança e Headers HTTP
 
 | Recurso | Descrição & Tags | Licença / Modelo | Caso de Uso | Observações |
@@ -236,6 +261,8 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 [Voltar ao Sumário](#sumario)
 
 ---
+
+<a id="sec-13"></a>
 
 ### Otimização de Mídias e Assets
 
@@ -251,6 +278,8 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 
 ---
 
+<a id="sec-14"></a>
+
 ### Performance e Monitoramento
 
 | Recurso | Descrição & Tags | Licença / Modelo | Caso de Uso | Observações |
@@ -264,6 +293,8 @@ Catálogo de referência técnica contendo bibliotecas, utilitários, frameworks
 [Voltar ao Sumário](#sumario)
 
 ---
+
+<a id="sec-15"></a>
 
 ### Email e Entregabilidade
 
